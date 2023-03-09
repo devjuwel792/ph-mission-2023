@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+* {
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65%;
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    padding: 80px 10%;
+}
+
+.tilte{
+    font-size: 4.4rem;
+    text-align: center;
+    margin-bottom: 60px; 
+    
+}
+.orenge-color {
+    color: orange;
+}
+
+.btn {
+    background-color: red;
+    padding: 18px 36px;
+    display: inline-block;
+    font-size: 1.8rem;
+    color: white;
+    letter-spacing: 1.4px;
+    border-radius: 7px;
+    margin: 30px 0 40px;
+}
+
+/* hero */
+.hero-wraper {
+    margin: 50px 10%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+
+}
+
+.hero-details {
+    width: 45%;
+}
+
+.hero-wraper .img {
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+
+}
+
+.hero-wraper .img img {
+    width: 500px !important;
+
+}
+
+.hero-title {
+    position: relative;
+    font-size: 7.8rem;
+    font-family: 'Yeseva One', cursive;
+    /* padding-left: 30px;  */
+}
+
+.hero-title::before {
+    position: absolute;
+    content: "";
+    height: 200px;
+    width: 5px;
+    top: 0;
+    left: -20px;
+    background-color: red;
+    /* border-left: 5px solid red; */
+
+    border-radius: 5px;
+}
+
+.hero-title span {
+    display: block;
+}
+
+.hero-details .discription {
+    font-size: 2rem;
+    line-height: 28px;
+    color: dimgray;
+    margin-top: 30px;
+}
+
+.hero-details .scroll-down {
+    font-size: 2rem;
+    line-height: 28px;
+    color: dimgray;
+}
+
+/* card  */
+.card-container{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.card{
+    /* min-width: 150px ; */
+    width: 450px;
+    background-color: rgba(156, 224, 219, 0.164);
+    padding: 35px;
+    line-height: 28px;
+    border-radius: 15px;
+}
+.card .card-img img{
+    max-width: 100%;
+    width: 150px;
+}
+.card .card-details .card-title{
+    font-size: 3rem;
+    margin: 10px 0;
+}
+.card .card-details .card-discription{
+    font-size: 2rem;
+    letter-spacing: .8px;
+    color: dimgray;
+
+}
+
+/* developer  */
+.corona-aplicaton,
+.developer {
+    display: flex;
+    flex-wrap: wrap;
+}  
+
+.shap-1{
+    background-image: url(./images/shapes/shape-1.png),url(./images/shapes/Group\ 57888.png);
+    background-repeat: no-repeat;
+    background-size: 250px,160px;
+    background-position: top 45% left 5%,bottom left;
+}
+.shap-2{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: bottom 0% right 5%;
+    
+}
+.corona-aplicaton{
+    justify-content: space-evenly;
+    
+    
+    
+    
+
+}
+
+.corona-aplicaton .corona-details,
+.corona-aplicaton .img,
+.developer .img{
+    display: flex;
+    align-items: center;
+}
+
+.developer .img {
+    width: 40%;
+    
+    
+}
+
+.corona-aplicaton .img img,
+.developer .img img{
+   width: 400px;
+    
+   
+}
+
+.developer .developer-details{
+    width: 60%;
+}
+.corona-aplicaton .corona-details.corona-title,
+.developer .developer-details .developer-title{
+    font-size: 4rem;
+}
+.corona-aplicaton .corona-details .corona-discription,
+.developer .developer-details .developer-discription{
+    font-size: 2.4rem;
+    padding-top: 40px;
+    line-height: 30px;
+    color: dimgray;
+    word-spacing: 2px;
+    
+    
+}
+
+
+.dev-img-2{
+    justify-content: flex-end;
+}
+
+.corona-aplicaton .corona-details ,
+.corona-aplicaton img{
+
+    width: 50%;
+}
+
+.shap-3{
+    background-image: url(./images/shapes/shape-3.png),url(./images/shapes/shape-3.png),url(./images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 200px,120px,120px;
+    background-position: top 5% left 15%,bottom 10% left 17%,bottom 35% left 33%;
+}
+footer{
+    padding: 50px 10%;
+    background-color: black;
+    
+}
+.red-color{
+    color: rgb(204, 6, 6);
+}
+.title-2{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+
+}
+footer h4{
+    color: rgb(95, 91, 91);
+    font-size: 1.6rem;
+    font-weight: 400;  
+    text-align: center;
+
+
+
+}
